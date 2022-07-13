@@ -12,9 +12,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_swplugin_52b25748 from 'nuxt_plugin_swplugin_52b25748' // Source: .\\sw.plugin.js (mode: 'client')
-import nuxt_plugin_bootstrapvue_21d9ff44 from 'nuxt_plugin_bootstrapvue_21d9ff44' // Source: .\\bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_googleanalytics_9cd158d2 from 'nuxt_plugin_googleanalytics_9cd158d2' // Source: .\\google-analytics.js (mode: 'client')
+import nuxt_plugin_swplugin_3be4faa1 from 'nuxt_plugin_swplugin_3be4faa1' // Source: .\\sw.plugin.js (mode: 'client')
+import nuxt_plugin_bootstrapvue_25bb6192 from 'nuxt_plugin_bootstrapvue_25bb6192' // Source: .\\bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_googleanalytics_2e002bc4 from 'nuxt_plugin_googleanalytics_2e002bc4' // Source: .\\google-analytics.js (mode: 'client')
 import nuxt_plugin_vuescrollto_53dc20e5 from 'nuxt_plugin_vuescrollto_53dc20e5' // Source: ..\\plugins\\vue-scrollto (mode: 'client')
 
 // Component: <ClientOnly>
@@ -65,7 +65,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"STILKO - Výrobce montážních kotev pro okna a dveře","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Společnost STILKO Monika Fołtyn ve své nabídce má kotvy pro plastová okna, kotvy pro dřevěná okna - zapuštěné kotvy, otočné kotvy a kotvy pro hliníková okna."},{"hid":"og:description","name":"og:description","content":"Výrobce montážních kotev pro okna a dveře s třicetiletou zkušeností. Stilko je skupina nadšenců, kteří si cení kvality."},{"hid":"og:type","name":"og:type","content":"website"},{"hid":"og:title","name":"og:title","content":"STILKO - I VŠE Z KOVU"},{"hid":"og:site_name","name":"og:site_name","content":"STILKO I VŠE Z KOVU"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"Stilko"},{"hid":"author","name":"author","content":"mj426382"},{"hid":"theme-color","name":"theme-color","content":"#fff"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:400,700|Ubuntu:400,700&display=swap","rel":"stylesheet"},{"rel":"manifest","href":"\u002F%3Crepository-name%3E\u002F_nuxt\u002Fmanifest.5bef94c4.json"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
+    head: {"title":"STILKO - Hersteller von Befestigungsdübeln für Fenster und Türen","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"STILKO Monika Fołtyn bietet Dübel für Kunststofffenster, Dübel für Holzfenster - Einbaudübel, Drehdübel und Dübel für Aluminiumfenster an."},{"hid":"og:description","name":"og:description","content":"Hersteller von Befestigungsdübeln für Fenster und Türen mit 30 Jahren Erfahrung. Stilko ist eine Gruppe von Enthusiasten, die Wert auf Qualität legen."},{"hid":"og:type","name":"og:type","content":"website"},{"hid":"og:title","name":"og:title","content":"STILKO - UND ALLES AUS METALL"},{"hid":"og:site_name","name":"og:site_name","content":"STILKO UND ALLES AUS METALL"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"Stilko"},{"hid":"author","name":"author","content":"mj426382"},{"hid":"theme-color","name":"theme-color","content":"#fff"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:400,700|Ubuntu:400,700&display=swap","rel":"stylesheet"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.be6423b4.json"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
 
     router,
     nuxt: {
@@ -179,16 +179,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (process.client && typeof nuxt_plugin_swplugin_52b25748 === 'function') {
-    await nuxt_plugin_swplugin_52b25748(app.context, inject)
+  if (process.client && typeof nuxt_plugin_swplugin_3be4faa1 === 'function') {
+    await nuxt_plugin_swplugin_3be4faa1(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_21d9ff44 === 'function') {
-    await nuxt_plugin_bootstrapvue_21d9ff44(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_25bb6192 === 'function') {
+    await nuxt_plugin_bootstrapvue_25bb6192(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_googleanalytics_9cd158d2 === 'function') {
-    await nuxt_plugin_googleanalytics_9cd158d2(app.context, inject)
+  if (process.client && typeof nuxt_plugin_googleanalytics_2e002bc4 === 'function') {
+    await nuxt_plugin_googleanalytics_2e002bc4(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_vuescrollto_53dc20e5 === 'function') {

@@ -2,13 +2,15 @@
   {
     "name": "sec",
     "path": "/sec",
-    "component": "C:\\\\Users\\\\User\\\\Desktop\\\\stilko.de\\\\pages\\\\sec.vue",
-    "chunkName": "pages/sec"
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\GitHub\\\\stilko.de\\\\pages\\\\sec.vue",
+    "chunkName": "pages/sec",
+    "_name": "_7dde8b12"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\User\\\\Desktop\\\\stilko.de\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\GitHub\\\\stilko.de\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2ec732f8"
   }
 ]
