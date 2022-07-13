@@ -1,0 +1,49 @@
+.container-margin {
+  padding: 4%;
+
+  @media screen and (min-width: 980px) {
+    padding: 0 4%;
+  }
+} 
+
+.btn-green {
+  background-color: $colGreen;
+  border: 1px solid $colGreen;
+  text-transform: uppercase;
+  font-size: .9rem;
+  letter-spacing: 1.1px;
+  font-weight: bold;
+  padding: 10px 24px;
+  font-family: 'Ubuntu';
+
+  &:hover {
+    background: $colBlue;
+    border: 1px solid $colBlue;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+
+  &:hover {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+.text--left {
+  text-align: left;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}

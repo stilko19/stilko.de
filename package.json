@@ -1,0 +1,35 @@
+{
+  "name": "Stilko",
+  "version": "1.0.0",
+  "description": "My stunning Nuxt.js project",
+  "author": "mj426382",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^2.6.0",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-rc.23",
+    "cross-env": "^5.2.0",
+    "gh-pages": "^3.2.3",
+    "nuxt": "^2.12.0",
+    "vue-scrollto": "^2.15.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/style-resources": "^0.1.2",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.4",
+    "sass": "^1.51.0",
+    "sass-loader": "^7.1.0"
+  }
+}
